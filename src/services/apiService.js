@@ -3,7 +3,7 @@ import axios from 'axios';
 const getToken = () => localStorage.getItem('token');  // latest token every time
 
 
-const API_BASE_URL = 'http://localhost:3000/api';
+const API_BASE_URL = 'http://54.84.234.27:3000/api';
 
 const apiService = {
   search: async (collectionName, body = {}) => {
